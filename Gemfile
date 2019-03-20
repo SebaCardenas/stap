@@ -50,3 +50,5 @@ group :production do
   gem 'puma', '~> 3.4'
   gem 'pg'
   end
+
+gem "rspec", "~> 3.8"
