@@ -48,5 +48,7 @@ group :development do
   gem 'sqlite3'
 end
 group :production do
+  gem 'rails_12factor'
+  gem 'puma', '~> 3.4'
   gem 'pg'
   end
